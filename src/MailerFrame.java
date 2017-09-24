@@ -76,7 +76,7 @@ public class MailerFrame extends JFrame{
 //		paneEmails.setEnabled(false);
 		
 		JPanel pane = new JPanel(new GridBagLayout());
-		pane.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+		pane.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
 		GridBagConstraints c = new GridBagConstraints();
 		
 		c.fill = GridBagConstraints.HORIZONTAL;
